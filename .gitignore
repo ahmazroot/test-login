@@ -1,0 +1,27 @@
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+**/node_modules/
+**/target/
+**/vendor/
+
+# Temporary files
+*.log
+*.tmp
+
+# Keep only the release builds for backends
+backend-axum/*
+!backend-axum/target/release/
+backend-go/*
+!backend-go/main
+backend-rocket/*
+!backend-rocket/target/release/
+
+# Frontend - keep only build files
+frontend/*
+!frontend/build/
+!frontend/dist/
