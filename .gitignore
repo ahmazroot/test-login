@@ -21,7 +21,7 @@ backend-go/*
 backend-rocket/*
 !backend-rocket/target/release/
 
-# Frontend - keep only build files
-frontend/*
-!frontend/build/
-!frontend/dist/
+## Frontend - keep only build files
+#frontend/*
+#!frontend/build/
+#!frontend/dist/
