@@ -1,0 +1,39 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-3127fcc3e1c22b18.js",
+      "static/chunks/4bd1b696-c35203d40f89c43a.js",
+      "static/chunks/684-8d34620d16c1fefe.js",
+      "static/chunks/main-app-05fcc4fc1bb9182d.js",
+      "static/chunks/app/_not-found/page-6ae04e3b1ff0fd60.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-3127fcc3e1c22b18.js",
+      "static/chunks/4bd1b696-c35203d40f89c43a.js",
+      "static/chunks/684-8d34620d16c1fefe.js",
+      "static/chunks/main-app-05fcc4fc1bb9182d.js",
+      "static/css/a5fad7334f023f21.css",
+      "static/chunks/671-d691725810a3d751.js",
+      "static/chunks/app/layout-c5fa9da115834f17.js"
+    ],
+    "/registrasi/page": [
+      "static/chunks/webpack-3127fcc3e1c22b18.js",
+      "static/chunks/4bd1b696-c35203d40f89c43a.js",
+      "static/chunks/684-8d34620d16c1fefe.js",
+      "static/chunks/main-app-05fcc4fc1bb9182d.js",
+      "static/chunks/671-d691725810a3d751.js",
+      "static/chunks/806-189b89ee3cb8b2a5.js",
+      "static/chunks/app/registrasi/page-4a6092107d86eafb.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-3127fcc3e1c22b18.js",
+      "static/chunks/4bd1b696-c35203d40f89c43a.js",
+      "static/chunks/684-8d34620d16c1fefe.js",
+      "static/chunks/main-app-05fcc4fc1bb9182d.js",
+      "static/chunks/671-d691725810a3d751.js",
+      "static/chunks/806-189b89ee3cb8b2a5.js",
+      "static/chunks/874-51c5896bae8bc4b8.js",
+      "static/chunks/app/page-4bbb15ca20539622.js"
+    ]
+  }
+}
