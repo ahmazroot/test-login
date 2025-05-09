@@ -30,30 +30,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/registrasi": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/registrasi",
-      "dataRoute": "/registrasi.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/": {
       "experimentalBypassFor": [
         {
@@ -77,13 +53,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/registrasi": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/registrasi",
+      "dataRoute": "/registrasi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "ed210747f9a9986a54e8a6812a7679a4",
-    "previewModeSigningKey": "56c161e44510360fa21a71495f15f90c5c789d596b2da1c53c3e89bb7aa40282",
-    "previewModeEncryptionKey": "0e9943ccbe0a34cf968c4f106ed2025eceb8c621e2ab26fa408d7b7cb06d0423"
+    "previewModeId": "f9a49b3270dd62b19377bd2ab944a159",
+    "previewModeSigningKey": "e4b90318cc9fdb71925e55322d341268b0cf391d90f3cde3b28eea94b42e7872",
+    "previewModeEncryptionKey": "c1f79225152341a7998e53841aeff25e277549495c0ba43bdcd30db7476d756c"
   }
 }
