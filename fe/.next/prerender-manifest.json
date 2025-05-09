@@ -30,30 +30,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/registrasi": {
       "experimentalBypassFor": [
         {
@@ -77,13 +53,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "94aac0f1e5d9595efb1e074511cdc2f7",
-    "previewModeSigningKey": "492ebe30372ffd243dd8ad39494770c2b1b42f78143aea4bae3ad0bc4b701ccf",
-    "previewModeEncryptionKey": "36dfac0447825d25cef3524ae28af50821c944770bfb89d896d3e8099b0cb16c"
+    "previewModeId": "ed210747f9a9986a54e8a6812a7679a4",
+    "previewModeSigningKey": "56c161e44510360fa21a71495f15f90c5c789d596b2da1c53c3e89bb7aa40282",
+    "previewModeEncryptionKey": "0e9943ccbe0a34cf968c4f106ed2025eceb8c621e2ab26fa408d7b7cb06d0423"
   }
 }
