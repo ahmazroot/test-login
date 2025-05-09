@@ -1,27 +1,40 @@
-## IDE and Editor files
-#.idea/
-#.vscode/
-#*.swp
-#*.swo
-#
-## Dependencies
-#**/node_modules/
-#**/target/
-#**/vendor/
-#
-## Temporary files
-#*.log
-#*.tmp
-#
-## Keep only the release builds for backends
-#backend-axum/*
-#!backend-axum/target/release/
-#backend-go/*
-#!backend-go/main
-#backend-rocket/*
-#!backend-rocket/target/release/
-#
-### Frontend - keep only build files
-##frontend/*
-##!frontend/build/
-##!frontend/dist/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/fe/node_modules
+/fe/.pnp
+/fe/.pnp.*
+/fe/.yarn/*
+!/fe/.yarn/patches
+!/fe/.yarn/plugins
+!/fe/.yarn/releases
+!/fe/.yarn/versions
+
+# testing
+/fe/coverage
+
+# next.js
+/fe/.next/
+/fe/out/
+
+
+# misc
+/fe/.DS_Storere
+/fe/*.pem
+
+# debug
+/fe/npm-debug.log*
+/fe/yarn-debug.log*
+/fe/yarn-error.log*
+/fe/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/fe/.env*
+
+# vercel
+/fe/.vercel
+
+# typescript
+/fe/*.tsbuildinfo
+/fe/next-env.d.ts
+
