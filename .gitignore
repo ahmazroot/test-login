@@ -28,9 +28,6 @@
 /fe/yarn-error.log*
 /fe/.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-/fe/.env*
-
 # vercel
 /fe/.vercel
 
