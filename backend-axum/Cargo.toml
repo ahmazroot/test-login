@@ -13,3 +13,7 @@ sqlx = { version = "0.7.3", features = ["runtime-tokio-native-tls", "sqlite"] }
 bcrypt = "0.15.0"
 dotenv = "0.15.0"
 tower = "0.4.13"
+
+[target.x86_64-unknown-linux-musl]
+linker = "x86_64-linux-musl-gcc"
+

@@ -99,11 +99,11 @@ export function RegisterForm() {
             const registerTimeMs = endTime - startTime
             const registerTime = `${Math.floor(registerTimeMs / 1000)}.${Math.floor(registerTimeMs % 1000)}` // seconds.milliseconds
 
-            if (!response.ok) {
+            if (!data.success) {
                 throw new Error(data.message || "Registration failed")
             }
 
-            toast("Registration successful", {
+            toast("Registration success", {
                 description: `Registered using ${backend} backend in ${registerTime} seconds`,
             })
 

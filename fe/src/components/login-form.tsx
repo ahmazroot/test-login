@@ -48,7 +48,7 @@ export function LoginForm() {
             const loginTimeMs = endTime - startTime
             const loginTime = `${Math.floor(loginTimeMs / 1000)}.${Math.floor(loginTimeMs % 1000)}` // seconds.milliseconds
 
-            if (!response.ok) {
+            if (!data.success) {
                 throw new Error(data.message || "Login failed")
             }
 
